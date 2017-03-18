@@ -1,0 +1,11 @@
+name := "GuiceMock"
+
+version := "1.0"
+
+scalaVersion := "2.12.1"
+
+libraryDependencies ++= Seq(
+   "com.google.inject" % "guice" % "4.1.0",
+   "org.scalatest" %% "scalatest" % "3.0.1",
+   "org.scalamock" %% "scalamock-scalatest-support" % "3.5.0" % Test
+)
